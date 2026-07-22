@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CrackIt
 
-## Getting Started to work on the project . Fighting
+CrackIt is an AI-powered technical interview preparation platform that simulates real interview experiences through voice conversations, helping developers improve communication, technical knowledge, and interview confidence with instant AI-generated feedback.
 
-First, run the development server:
+Live : https://crackitprep.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+* 🎙️ AI-powered voice interviews
+* 🤖 Real-time conversational interview experience
+* 📊 Instant feedback and performance analysis
+* 📚 Interview history and progress tracking
+* 🔐 Secure authentication with Firebase
+* ⚡ Responsive and modern UI
+
+## 🛠 Tech Stack
+
+**Next.js · React · TypeScript · Tailwind CSS · Firebase · Firestore · Firebase Admin SDK · Vapi AI · Shadcn/UI**
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash id="fgt3pv"
+git clone git@github.com:Nova-cmd-oss/CrackIt.git
+cd CrackIt
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash id="u78hio"
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file and add your Firebase and Vapi credentials.
 
-## Learn More
+Start the development server:
 
-To learn more about Next.js, take a look at the following resources:
+```bash id="jlwmha"
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open **http://localhost:3000** in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```text id="8k7xmx"
+app/
+components/
+constants/
+firebase/
+lib/
+public/
+types/
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions, issues, and feature requests are welcome. Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
