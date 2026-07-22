@@ -1,4 +1,16 @@
-# CrackIt
+<h1 align="center">CrackIt</h1>
+
+<p align="center">
+  AI-powered technical interview platform built with Next.js and Vapi AI.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16-black" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28" />
+  <img src="https://img.shields.io/badge/Vapi-AI-blue" />
+</p>
 
 CrackIt is an AI-powered technical interview preparation platform that simulates real interview experiences through voice conversations, helping developers improve communication, technical knowledge, and interview confidence with instant AI-generated feedback.
 
