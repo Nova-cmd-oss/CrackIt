@@ -46,6 +46,20 @@ npm install
 
 Create a `.env.local` file and add your Firebase and Vapi credentials.
 
+Firebase authentication requires these values in `.env.local`:
+
+- `NEXT_PUBLIC_FIREBASE_API_KEY`
+- `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
+- `NEXT_PUBLIC_FIREBASE_PROJECT_ID`
+- `NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET`
+- `NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID`
+- `NEXT_PUBLIC_FIREBASE_APP_ID`
+- `FIREBASE_PROJECT_ID`
+- `FIREBASE_CLIENT_EMAIL`
+- `FIREBASE_PRIVATE_KEY`
+
+The public Firebase configuration and Admin SDK configuration must reference the same Firebase project. Encode line breaks in `FIREBASE_PRIVATE_KEY` as `\\n`. Do not commit `.env.local` or service-account credentials.
+
 Start the development server:
 
 ```bash id="jlwmha"
