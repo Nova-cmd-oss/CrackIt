@@ -12,7 +12,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-} from "firebase/auth";
+} from "CrackIt/firebase/auth.ts";
 
 import { Form } from "@/components/ui/form";
 import { Button } from "@/components/ui/button";
